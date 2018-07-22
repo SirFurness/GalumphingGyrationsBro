@@ -1,3 +1,5 @@
+import random
+
 adjectives = ["Really",
               "Galumphing",
               "Totally",
@@ -19,5 +21,11 @@ noun2 = ["bud",
          "broski",
          "fam",]
 
+def get(array):
+    return array[random.randint(0, len(array))]
+
 if __name__ == "__main__":
-    print("hi")
+    adjective = get(adjectives)
+    noun = get(noun)
+    noun2 = get(noun2)
+    print(adjective + " " + noun + " " + noun2)
