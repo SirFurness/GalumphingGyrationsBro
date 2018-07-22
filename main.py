@@ -1,7 +1,17 @@
 import random
 
-adjectives = ["Really"]
-noun = []
+adjectives = ["Really",
+              "Galumphing",
+              "Totally",
+              "Undoubtedly",
+              "Radically",
+              "Absolutely",
+              "Utterly",
+              ]
+noun = ["Awesome",
+        "Gyrations",
+        "Tubular",
+        "Rad",]
 noun2 = []
 
 def get(array):
