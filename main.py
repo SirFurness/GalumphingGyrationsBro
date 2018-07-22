@@ -18,4 +18,7 @@ def get(array):
     return array[random.randint(0, len(array))]
 
 if __name__ == "__main__":
-    print(get(adjectives) + " " + get(noun) + " " + get(noun2))
+    adjective = get(adjectives)
+    noun = get(noun)
+    noun2 = get(noun2)
+    print(adjective + " " + noun + " " + noun2)
