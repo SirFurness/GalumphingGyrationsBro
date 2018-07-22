@@ -12,8 +12,7 @@ adjectives = ["Really",
 noun = ["Awesome",
         "Gyrations",
         "Tubular",
-        "Rad",
-        "]
+        "Rad",]
 noun2 = ["bud",
          "buddy",
          "bro",
@@ -22,7 +21,7 @@ noun2 = ["bud",
          "fam",]
 
 def get(array):
-    return array[random.randint(0, len(array))]
+    return array[random.randint(0, len(array)-1)]
 
 if __name__ == "__main__":
     adjective = get(adjectives)
