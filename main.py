@@ -1,24 +1,50 @@
 import random
 
 adjectives = ["Really",
-              "Galumphing",
+              "Galumphingly",
               "Totally",
               "Undoubtedly",
               "Radically",
               "Absolutely",
               "Utterly",
               "Stupendously",
+              "Extremely",
+              "Uncomfortably",
+              "Awfully",
+              "Insanely",
               ]
 noun = ["Awesome",
         "Gyrations",
         "Tubular",
-        "Rad",]
+        "Rad",
+        "Remorseful",
+        "Litty",
+        "Interesting",
+        "Funky",
+        "Wild",
+        "Organic",
+        "Poppin",
+        "Ridiculous",
+        "Insane",
+        "Extreme",
+        ]
 noun2 = ["bud",
          "buddy",
          "bro",
          "lil yeetus",
          "broski",
-         "fam",]
+         "fam",
+         "boi",
+         "thiccy",
+         "squadfam",
+         "brother",
+         "litfam",
+         "budboy",
+         "amigo",
+         "brethren",
+         "m'lord",
+         "sire",
+         ]
 
 def get(array):
     return array[random.randint(0, len(array)-1)]
