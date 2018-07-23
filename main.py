@@ -1,6 +1,6 @@
 import random
 
-adjectives = ["Really",
+part1 = ["Really",
               "Galumphingly",
               "Totally",
               "Undoubtedly",
@@ -19,7 +19,7 @@ adjectives = ["Really",
               "Like, Utterly",
               
               ]
-noun = ["Awesome",
+part2 = ["Awesome",
         "Gyrations",
         "Tubular",
         "Rad",
@@ -43,7 +43,7 @@ noun = ["Awesome",
         "Mental",
         "Bodacious",
         ]
-noun2 = ["bud",
+part3 = ["bud",
          "buddy",
          "bro",
          "lil yeetus",
@@ -67,7 +67,7 @@ def get(array):
     return array[random.randint(0, len(array)-1)]
 
 if __name__ == "__main__":
-    adjective = get(adjectives)
-    noun = get(noun)
-    noun2 = get(noun2)
-    print(adjective + " " + noun + " " + noun2)
+    part1 = get(part1)
+    part2 = get(part2)
+    part3 = get(part3)
+    print(part1 + " " + part2 + " " + part3)
